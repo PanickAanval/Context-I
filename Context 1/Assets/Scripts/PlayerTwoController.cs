@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     private CharacterController controller2;
     private Vector3 playerVelocity2;
     private bool groundedPlayer2;
-    private float playerSpeed2 = 2.0f;
+    private float playerSpeed2 = 4.0f;
     private float jumpHeight2 = 1.0f;
     private float gravityValue2 = -9.81f;
 
