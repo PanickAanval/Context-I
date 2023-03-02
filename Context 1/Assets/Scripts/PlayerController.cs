@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
             Vector3 movePos = transform.position + move * Time.deltaTime * playerSpeed;
             transform.position = movePos;
             gameObject.transform.forward = move;
-            print(movePos);
         }
         
     }

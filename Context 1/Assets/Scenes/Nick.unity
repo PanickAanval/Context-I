@@ -614,8 +614,8 @@ MonoBehaviour:
   onExit:
     m_PersistentCalls:
       m_Calls: []
-  player1: {fileID: 953093853}
-  player2: {fileID: 1972601255}
+  player1: {fileID: 273327413}
+  player2: {fileID: 1899424168}
   player1Tp: {fileID: 1867173362}
   player2Tp: {fileID: 1660174119}
 --- !u!136 &875886203

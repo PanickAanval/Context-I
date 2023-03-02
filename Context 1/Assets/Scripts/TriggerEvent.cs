@@ -15,6 +15,7 @@ public class TriggerEvent : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        print(other);
         onEnter.Invoke();
         if (other.gameObject == player1)
         {
@@ -29,6 +30,7 @@ public class TriggerEvent : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        print(other);
         onExit.Invoke();
         if (other.gameObject == player1)
         {
