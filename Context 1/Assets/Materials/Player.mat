@@ -28,6 +28,11 @@ Material:
   - _SHADING_L_VERTEX_COLOR
   - _SHADING_R_VERTEX_COLOR
   - _SHADING_T_VERTEX_COLOR
+  - _SHOWBACK_ON
+  - _SHOWFRONT_ON
+  - _SHOWGLOBALGRADIENTSETTINGS_ON
+  - _SHOWLEFT_ON
+  - _SHOWTEXTURE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -150,7 +155,7 @@ Material:
     - _ShowBack: 1
     - _ShowBottom: 0
     - _ShowColorCorrection: 0
-    - _ShowCustomShading: 0
+    - _ShowCustomShading: 1
     - _ShowFog: 0
     - _ShowFront: 1
     - _ShowGlobalGradientSettings: 1
@@ -172,7 +177,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color1_B: {r: 0.9433962, g: 0.48653132, b: 0.48653132, a: 1}
     - _Color1_D: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1_F: {r: 1, g: 0.5157232, b: 0.5157232, a: 1}
+    - _Color1_F: {r: 0.9811321, g: 0.42268893, b: 0.42268893, a: 1}
     - _Color1_L: {r: 1, g: 1, b: 1, a: 1}
     - _Color1_R: {r: 1, g: 1, b: 1, a: 1}
     - _Color1_T: {r: 1, g: 1, b: 1, a: 1}
