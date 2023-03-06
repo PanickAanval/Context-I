@@ -1,7 +1,7 @@
 using UnityEngine;
 public class PlayerTwoController : MonoBehaviour
 {
-    private float playerSpeed2 = 4.0f;
+    private float playerSpeed2 = 6.0f;
     void Update()
     {
         Vector3 move = new Vector3(Input.GetAxis("Horizontal2"), 0, Input.GetAxis("Vertical2"));
