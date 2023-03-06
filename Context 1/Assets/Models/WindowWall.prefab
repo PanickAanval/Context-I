@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2390455447061233277}
   - component: {fileID: 6400119750225430755}
   - component: {fileID: 3303327564645946428}
+  - component: {fileID: 4930758782137448439}
   m_Layer: 0
   m_Name: WindowWall
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1827308005880311959}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0, y: -0.051179297, z: -0.12}
-  m_LocalScale: {x: 5, y: 100, z: 100}
+  m_LocalScale: {x: 10, y: 225, z: 225}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4930758782137448439
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827308005880311959}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5495902117074765545, guid: 2f549fe550c9e4249a94ac215f43c969, type: 3}
